@@ -1,0 +1,1 @@
+give PLAYER diamond_horse_armor

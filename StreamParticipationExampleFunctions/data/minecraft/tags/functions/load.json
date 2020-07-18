@@ -1,0 +1,6 @@
+{
+	"values": [
+		"#load:__init",
+		"special_events:init_bat_bombs"
+	]
+}

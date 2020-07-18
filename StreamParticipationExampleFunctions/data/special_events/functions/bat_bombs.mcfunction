@@ -1,0 +1,1 @@
+execute at @a[scores={batBomb=1}] run execute at @e[type=bat,distance=0..5] run summon tnt ~ ~ ~
