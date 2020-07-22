@@ -1,1 +1,0 @@
-effect give PLAYER minecraft:speed 60 32 true
