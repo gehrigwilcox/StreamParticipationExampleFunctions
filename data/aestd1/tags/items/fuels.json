@@ -1,23 +1,13 @@
 {
 	"values": [
 		"#aestd1:mushroom_blocks",
-		"#aestd1:wooden_fence_gates",
 		"#aestd1:wooden_tools",
-		"#aestd1:wooden_trapdoors",
+		"#aestd1:flammable_wood",
 
 		"#minecraft:banners",
 		"#minecraft:boats",
 		"#minecraft:carpets",
-		"#minecraft:logs",
-		"#minecraft:planks",
 		"#minecraft:saplings",
-		"#minecraft:signs",
-		"#minecraft:wooden_buttons",
-		"#minecraft:wooden_doors",
-		"#minecraft:wooden_fences",
-		"#minecraft:wooden_pressure_plates",
-		"#minecraft:wooden_slabs",
-		"#minecraft:wooden_stairs",
 		"#minecraft:wool",
 
 		"minecraft:blaze_rod",

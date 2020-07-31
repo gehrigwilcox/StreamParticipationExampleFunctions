@@ -1,3 +1,4 @@
+# Teleports the player to the overworld and places them on the surface
+
 execute as @s in minecraft:overworld run teleport ~ ~ ~
-execute as @s at @s in minecraft:overworld run fill ~-1 ~ ~-1 ~1 ~1 ~1 air
-execute as @s at @s in minecraft:overworld run fill ~-1 ~-1 ~-1 ~1 ~-1 ~1 stone
+execute at @s run spreadplayers ~ ~ 1 1 true @s

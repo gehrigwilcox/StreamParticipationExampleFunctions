@@ -1,3 +1,5 @@
+# Summons 9 tnt and randomly teleports them around
+
 execute at @s run summon tnt ~ ~ ~ {Fuse:100}
 execute at @s run summon tnt ~ ~ ~ {Fuse:100}
 execute at @s run summon tnt ~ ~ ~ {Fuse:100}

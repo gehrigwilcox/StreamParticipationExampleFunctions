@@ -6,6 +6,10 @@
 		"#aestd1:flammable_fences",
 		"#aestd1:flammable_signs",
 		"#aestd1:flammable_stairs",
+		"#aestd1:flammable_trapdoors",
+		"#aestd1:flammable_buttons",
+		"#aestd1:flammable_doors",
+		"#aestd1:flammable_pressure_plates",
 		"#minecraft:logs_that_burn"
 	]
 }

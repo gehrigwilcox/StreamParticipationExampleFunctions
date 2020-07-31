@@ -1,6 +1,7 @@
 {
 	"values": [
 		"#aestd.core:tick",
-		"special_events:bat_bombs"
+		"special_events:bat_bombs/main",
+		"special_events:repel_mobs/main"
 	]
 }
