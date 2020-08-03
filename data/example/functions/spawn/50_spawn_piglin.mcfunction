@@ -1,3 +1,5 @@
 # Spawns a piglin
 
-execute at @s run summon piglin
+scoreboard players set @s aestd.math.in2 1
+
+scoreboard players operation @s piglin += @s aestd.math.in2

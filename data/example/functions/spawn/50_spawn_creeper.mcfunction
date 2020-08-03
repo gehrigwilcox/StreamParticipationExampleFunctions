@@ -1,3 +1,5 @@
 # Spawns a creeper
 
-execute at @s run summon creeper ~ ~ ~
+scoreboard players set @s aestd.math.in2 1
+
+scoreboard players operation @s creeper += @s aestd.math.in2

@@ -1,6 +1,8 @@
 {
 	"values": [
 		"#aestd.core:tick",
+		"minecraft:update_global_vars",
+		"special_events:mobs/spawn_hostile_mobs",
 		"special_events:bat_bombs/main",
 		"special_events:repel_mobs/main"
 	]

@@ -1,3 +1,5 @@
 # Spawns a wither skeleton
 
-execute at @s run summon wither_skeleton
+scoreboard players set @s aestd.math.in2 1
+
+scoreboard players operation @s wither_skeleton += @s aestd.math.in2

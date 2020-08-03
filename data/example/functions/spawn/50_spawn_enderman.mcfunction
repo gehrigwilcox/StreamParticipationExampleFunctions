@@ -1,3 +1,5 @@
 # Spawns an enderman
 
-execute at @s run summon enderman ~ ~ ~
+scoreboard players set @s aestd.math.in2 1
+
+scoreboard players operation @s enderman += @s aestd.math.in2

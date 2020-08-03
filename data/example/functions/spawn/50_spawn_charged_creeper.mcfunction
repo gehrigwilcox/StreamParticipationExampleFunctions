@@ -1,3 +1,5 @@
 # Spawns a charged creeper
 
-execute at @s run summon creeper ~ ~ ~ {powered:1}
+scoreboard players set @s aestd.math.in2 1
+
+scoreboard players operation @s charged_creeper += @s aestd.math.in2

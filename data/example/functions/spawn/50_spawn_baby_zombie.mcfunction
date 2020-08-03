@@ -1,3 +1,5 @@
 # Spawns a baby zombie
 
-execute at @s run summon zombie ~ ~ ~ {IsBaby:1}
+scoreboard players set @s aestd.math.in2 1
+
+scoreboard players operation @s baby_zombie += @s aestd.math.in2

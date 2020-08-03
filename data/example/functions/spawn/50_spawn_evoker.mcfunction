@@ -1,3 +1,5 @@
 # Spawns an evoker
 
-execute at @s run summon evoker ~ ~ ~
+scoreboard players set @s aestd.math.in2 1
+
+scoreboard players operation @s evoker += @s aestd.math.in2

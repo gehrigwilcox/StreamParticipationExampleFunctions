@@ -1,17 +1,10 @@
 # Spawns a random non-boss mob
 
-scoreboard objectives add int dummy
-
-#Get difficulty
-execute store result score .difficulty int run difficulty
-
 #By default, only spawn peaceful mobs
 scoreboard players set @s aestd.random.min 32
 
-execute as @s if score .difficulty int matches 1..3 run say hostile
-
 #If difficulty is not peaceful, allow hostile mobs to be included
-execute if score .difficulty int matches 1..3 run scoreboard players set @s aestd.random.min 0
+execute if score difficulty global matches 1..3 run scoreboard players set @s aestd.random.min 0
 
 #There are only 65 mobs
 scoreboard players set @s aestd.random.max 65

@@ -1,3 +1,5 @@
 # Spawns a cave spider
 
-execute at @s run summon cave_spider ~ ~ ~
+scoreboard players set @s aestd.math.in2 1
+
+scoreboard players operation @s cave_spider += @s aestd.math.in2

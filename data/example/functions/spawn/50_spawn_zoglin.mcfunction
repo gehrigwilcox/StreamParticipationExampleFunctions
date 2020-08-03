@@ -1,3 +1,5 @@
 # Spawns a zoglin
 
-execute at @s run summon zoglin
+scoreboard players set @s aestd.math.in2 1
+
+scoreboard players operation @s zoglin += @s aestd.math.in2
