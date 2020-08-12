@@ -17,6 +17,7 @@ scoreboard objectives add illusioner dummy
 scoreboard objectives add magma_cube dummy
 scoreboard objectives add phantom dummy
 scoreboard objectives add piglin dummy
+scoreboard objectives add piglin_brute dummy
 scoreboard objectives add pillager dummy
 scoreboard objectives add ravager dummy
 scoreboard objectives add shulker dummy

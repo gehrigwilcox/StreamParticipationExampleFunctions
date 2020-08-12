@@ -61,6 +61,9 @@ execute as @a[scores={phantom=1..}] if score difficulty global > @p aestd.math.i
 execute at @a[scores={piglin=1..}] if score difficulty global > @p aestd.math.in run summon piglin ~ ~ ~
 execute as @a[scores={piglin=1..}] if score difficulty global > @p aestd.math.in run scoreboard players operation @s piglin -= @s aestd.math.in2
 
+execute at @a[scores={piglin_brute=1..}] if score difficulty global > @p aestd.math.in run summon piglin_brute ~ ~ ~
+execute as @a[scores={piglin_brute=1..}] if score difficulty global > @p aestd.math.in run scoreboard players operation @s piglin_brute -= @s aestd.math.in2
+
 execute at @a[scores={pillager=1..}] if score difficulty global > @p aestd.math.in run summon pillager ~ ~ ~
 execute as @a[scores={pillager=1..}] if score difficulty global > @p aestd.math.in run scoreboard players operation @s pillager -= @s aestd.math.in2
 

@@ -2,6 +2,7 @@
 	"values": [
 		"#load:__init",
 		"minecraft:init_global_vars",
-		"special_events:mobs/init_hostile_mobs_vars"
+		"special_events:mobs/init_hostile_mobs_vars",
+		"special_events:bat_bombs/init_batbombs"
 	]
 }
