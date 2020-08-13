@@ -2,4 +2,4 @@
 
 title @s actionbar ["",{"text":"https://www.patreon.com/karacorvus","color":"red"},{"text":" "}]
 
-execute as @s run msg @s Become a Patreon at https://www.patreon.com/karacorvus
+execute as @s run msg @s Did you know Kara has a Patreon? https://www.patreon.com/karacorvus
