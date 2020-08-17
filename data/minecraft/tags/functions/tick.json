@@ -4,6 +4,10 @@
 		"minecraft:update_global_vars",
 		"special_events:mobs/spawn_hostile_mobs",
 		"special_events:bat_bombs/main",
-		"special_events:repel_mobs/main"
+		"special_events:repel_mobs/main",
+		"special_events:humming_shark/tick",
+		"special_events:fake_block/tick",
+		"special_events:disguise/tick",
+		"special_events:bushe/tick"
 	]
 }

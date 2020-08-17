@@ -3,6 +3,8 @@
 		"#load:__init",
 		"minecraft:init_global_vars",
 		"special_events:mobs/init_hostile_mobs_vars",
-		"special_events:bat_bombs/init_batbombs"
+		"special_events:bat_bombs/init_batbombs",
+		"special_events:humming_shark/init",
+		"special_events:bushe/init"
 	]
 }
