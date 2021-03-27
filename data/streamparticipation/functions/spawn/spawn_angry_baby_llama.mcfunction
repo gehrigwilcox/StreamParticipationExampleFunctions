@@ -5,4 +5,4 @@ execute as @s run function aestd1:entity/get_uuid
 execute as @e[tag=angryLlama] run function aestd1:entity/anger
 execute as @e[tag=angryLlama] run tag @s remove angryLlama
 
-tellraw @p ["",{"text":"Thank you","color":"dark_red"},{"nbt":"display_name","storage":"streamparticipationcp","color":"dark_red"},{"text":"for redeeming channel points to make an Angry Baby Llama!","color":"dark_red"}]
+tellraw @p ["",{"text":"Thank You ","color":"dark_red"},{"nbt":"display_name","storage":"streamparticipationcp","color":"dark_red"},{"text":" for redeeming channel points to make an Angry Baby Llama!","color":"dark_red"}]

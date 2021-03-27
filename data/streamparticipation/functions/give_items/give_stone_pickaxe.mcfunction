@@ -2,4 +2,4 @@
 
 give @s stone_pickaxe
 
-tellraw @p ["",{"text":"Thank you","color":"dark_red"},{"nbt":"display_name","storage":"streamparticipationcp","color":"dark_red"},{"text":"for redeeming channel points to give me a Stone pickaxe!","color":"dark_red"}]
+tellraw @p ["",{"text":"Thank You ","color":"dark_red"},{"nbt":"display_name","storage":"streamparticipationcp","color":"dark_red"},{"text":" for redeeming channel points to give me a Stone pickaxe!","color":"dark_red"}]

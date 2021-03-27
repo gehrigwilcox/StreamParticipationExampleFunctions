@@ -2,4 +2,4 @@
 
 spreadplayers 0 0 1 1 false @s
 
-tellraw @p ["",{"text":"Thank you","color":"dark_red"},{"nbt":"display_name","storage":"streamparticipationcp","color":"dark_red"},{"text":"for redeeming channel points to send me to spawn!","color":"dark_red"}]
+tellraw @p ["",{"text":"Thank You ","color":"dark_red"},{"nbt":"display_name","storage":"streamparticipationcp","color":"dark_red"},{"text":" for redeeming channel points to send me to spawn!","color":"dark_red"}]
