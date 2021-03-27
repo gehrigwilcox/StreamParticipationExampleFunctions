@@ -87,4 +87,4 @@ execute as @s if score @s aestd.random matches 65 run summon wolf
 execute as @s if score @s aestd.random matches 66 run summon zombie_horse
 
 
-tellraw @p ["",{"text":"Thank you","color":"dark_red"},{"nbt":"display_name","storage":"StreamParticipationCP","color":"dark_red"},{"text":"for redeeming channel points to make a Random Mob!","color":"dark_red"}]
+tellraw @p ["",{"text":"Thank you","color":"dark_red"},{"nbt":"display_name","storage":"streamparticipationcp","color":"dark_red"},{"text":"for redeeming channel points to make a Random Mob!","color":"dark_red"}]

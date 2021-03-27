@@ -4,4 +4,4 @@ execute as @s in minecraft:the_nether run teleport ~ ~ ~
 execute as @s at @s in minecraft:the_nether run fill ~-1 ~ ~-1 ~1 ~1 ~1 air
 execute as @s at @s in minecraft:the_nether run fill ~-1 ~-1 ~-1 ~1 ~-1 ~1 netherrack
 
-tellraw @p ["",{"text":"Thank you","color":"dark_red"},{"nbt":"display_name","storage":"StreamParticipationCP","color":"dark_red"},{"text":"for redeeming channel points to send me to the nether!","color":"dark_red"}]
+tellraw @p ["",{"text":"Thank you","color":"dark_red"},{"nbt":"display_name","storage":"streamparticipationcp","color":"dark_red"},{"text":"for redeeming channel points to send me to the nether!","color":"dark_red"}]
